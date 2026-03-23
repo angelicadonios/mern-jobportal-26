@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Header = () => {
     const isAuthenticated = true;
-    const user = {fullName: "Alex", role: "employer"};
+    const user = {fullName: "Angel", role: "employer"};
     const navigate = useNavigate();
   return (
     <div className='container mx-auto px-4'>
